@@ -1,0 +1,22 @@
+console.log("create 3 variables of each datatype");
+var age=27;
+console.log("Age:",age,"type:",typeof age);
+var firstName="satyavan";
+console.log("First Name:",firstName,"type:",typeof firstName);
+var isMarried=true;
+console.log("Ismarried:",isMarried,"type:",typeof isMarried);
+console.log("--------------------------------------------------------");
+var pin=413317;
+console.log("Pin:",pin,"type:",typeof pin);
+var city="save";
+console.log("City:",city,"type:",typeof city);
+var isVote=true;
+console.log("Is Vote:",isVote,"type:",typeof isVote);
+console.log("--------------------------------------------------------");
+var number=10;
+console.log("Number:",number,"type:",typeof number);
+var district="Solapur";
+console.log("District",district,"type:",typeof district);
+var isPass=true;
+console.log("is Pass:",isPass,"type:",typeof isPass);
+

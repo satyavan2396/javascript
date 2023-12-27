@@ -1,0 +1,10 @@
+var firstName="Satyavan";
+console.log(typeof firstName);
+var age=27;
+console.log(typeof age);
+var isMarried=true;
+console.log(typeof isMarried);
+var city;
+console.log( typeof city); 
+var country=null;
+console.log(typeof country);

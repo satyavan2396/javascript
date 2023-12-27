@@ -1,0 +1,23 @@
+console.log("01-------------------Swap Two variable using Third Variable------------------------");
+var sweety="Sweety";
+var cutie="Cutie";
+console.log("Varibale Before swap");
+console.log("sweety------>",sweety);
+console.log("cutie------->",cutie);
+var temp=sweety;
+sweety=cutie;
+cutie=temp;
+console.log("Varibale After swap");
+console.log("sweety------>",sweety);
+console.log("cutie------->",cutie);
+
+console.log("01-------------------Swap Three varible values ------------------------");
+var num1=100,num2=200,num3=300,temp1;
+console.log("Varibale Before swap");
+console.log("Num1-->",num1,"Num2-->",num2,"Num3-->",num3);
+temp1=num1;
+ num1=num2;
+ num2=num3;
+ num3=temp1;
+ console.log("Varibale After swap");
+ console.log("Num1-->",num1,"Num2-->",num2,"Num3-->",num3);

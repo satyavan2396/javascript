@@ -1,0 +1,18 @@
+var bankName;
+console.log("Before intilization value of variable bankName:",bankName,"type:",typeof bankName);
+bankName="SBI Bank";
+console.log("After intilization value of variable bankName:",bankName,"type:",typeof bankName);
+console.log("-----------------------------------------------------------------------------------");
+ var marks="90%";
+ console.log("DataTypes of marks varible is:",typeof marks,"value is:",marks);
+ console.log("-----------------------------------------------------------------------------------");
+ var isWorking;
+ console.log("Before intilization value of variable isWorking:",isWorking,"type:",typeof isWorking);
+ isWorking=true;
+ console.log("After intilization value of variable isWorking:",isWorking,"type:",typeof isWorking);
+ console.log("-----------------------------------------------------------------------------------");
+ var totalCount="Hundred and seven";
+ console.log("The value of variable totalcount is:",totalCount,"Type:",typeof totalCount);
+ console.log("----------------------------After Update Variable The Value is----------------------------");
+ totalCount=107;
+ console.log("After Updating the variable totalCount Value is:",totalCount,"Type:",typeof totalCount );
