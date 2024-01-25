@@ -47,3 +47,16 @@ console.log(`==== Changing Attribute ========`);
 const elementLink = document.querySelector('#visitLink');
 elementLink.setAttribute('href', "https://www.w3schools.com/");
 elementLink.setAttribute('target', "_self");
+
+console.log(`===========creating new node=========`);
+const h2Element=document.createElement("h2");
+const textNodeStrength=document.createTextNode("Personal strength");
+h2Element.appendChild(textNodeStrength)
+const strengthElement=document.querySelector(".strength")
+strengthElement.appendChild(h2Element)
+
+
+console.log(`==== Remove a node ========`);
+const elementRolesList = document.querySelector('#rolesList');
+const elementRole3 = document.querySelector('#role3');
+elementRolesList.removeChild(elementRole3);
